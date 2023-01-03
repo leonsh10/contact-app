@@ -1,0 +1,49 @@
+.all-contact__wrapper{
+    width:70%;
+    margin:0 auto;
+    h3{
+        margin-top:25px;
+        text-align:start;
+    }
+    .add-contact__button{
+        width:120px;
+        height:40px;
+        align-self:self-end;
+        text-decoration: none;
+    }
+    .all-contacts__list{
+        margin-top:45px;
+        tbody{
+            tr{
+                vertical-align:middle;
+            }
+        }
+      }
+}
+.add-button__wrapper{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+}
+
+.edit-contact__form{
+    width:50%;
+    margin:0 auto;
+    margin-top:1rem;
+    div{
+        label{
+            font-size:14px;
+            font-weight:600;
+        }
+        input{
+            height:35px;
+        }
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0; 
+        }
+    }
+}

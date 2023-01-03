@@ -1,0 +1,14 @@
+.header{
+    background-color:#202529;
+    .header-phonebook__link{
+        text-decoration: none;
+        .header-phonebook__logo{
+            color:white;
+            font-size:22px;
+            &:hover{
+                cursor:pointer;
+                color:rgb(209, 209, 249);
+            }
+        }
+    }
+}
